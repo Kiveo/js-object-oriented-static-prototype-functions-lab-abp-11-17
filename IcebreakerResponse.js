@@ -11,4 +11,4 @@ IcebreakerResponse.BatchCreate = function(data){
   })
 }
 
-let users = IcebreakerResponse.BatchCreate(data);
+let icebreakerResponses = IcebreakerResponse.BatchCreate(data);
