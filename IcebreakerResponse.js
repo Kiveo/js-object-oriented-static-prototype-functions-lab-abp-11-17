@@ -7,8 +7,8 @@ function IcebreakerResponse(email){
 
 IcebreakerResponse.BatchCreate = function(data){
   return data.map(function(ibrData){
-    debugger;
     return new IcebreakerResponse(ibrData[0])
+    debugger;
   })
 }
 
