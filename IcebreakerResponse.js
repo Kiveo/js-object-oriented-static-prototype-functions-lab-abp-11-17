@@ -10,3 +10,5 @@ IcebreakerResponse.BatchCreate = function(data){
     return new IcebreakerResponse(ibrData[0], ibrData[1])
   })
 }
+
+let users = IcebreakerResponse.BatchCreate(data)
